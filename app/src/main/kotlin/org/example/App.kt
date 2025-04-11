@@ -4,6 +4,7 @@
 package org.example
 
 class App {
+    
     val greeting: String
         get() {
             return "Hello World!"
@@ -11,5 +12,7 @@ class App {
 }
 
 fun main() {
+    val nombre: String = "Kotlin"
+    println("$nombre")
     println(App().greeting)
 }
